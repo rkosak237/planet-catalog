@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 12rem;
+    margin: 2rem;
+    justify-content: space-around;
+    color: white;
+    font-weight: bold;
+
+    @media (min-width: 1024px) {
+        margin: 1rem 0 2rem 0;
+    }
+
+    &__title {
+        font-size: 4rem;
+        margin: 0 0 1rem 0;
+    }
+
+    &__sub-title {
+        font-size: 1.5rem;
+    }
+}

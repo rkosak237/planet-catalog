@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@import './app/components/scss-custom-styles/base/reset';
+@import './app/components/scss-custom-styles/base/variables';
+@import './app/components/scss-custom-styles/base/config';
+
+/*Scroll bar*/
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: white;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background: white;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: grey;
+}
+
+.container {
+    background: url("./assets/bg-fullhd.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,23 @@
+.list {
+    overflow: auto;
+    height: 20rem;
+    box-shadow: 0 37.125px 70px -12.125px rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    width: 22rem;
+
+    @media (min-width: 768px) {
+        width: 40rem
+    }
+
+    &__item {
+        background: white;
+        cursor: pointer;
+        padding: 1.5rem;
+        font-size: 1.2rem;
+        transition: .4s ease-in-out;
+
+        &:hover {
+            background: lighten(#2f3542, 70%);
+        }
+    }
+}
