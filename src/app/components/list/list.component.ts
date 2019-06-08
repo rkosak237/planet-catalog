@@ -15,7 +15,7 @@ export class ListComponent implements OnInit {
 
   ngOnInit() {
     this.planetService.getPlanets().subscribe(data => {
-        this.planets = data.results;
+      this.planets = data;
     });
   }
 }
